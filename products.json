@@ -1,0 +1,82 @@
+[
+  {
+    "id": "acd48c241b3c2a0eb63c30da",
+    "name": "Electronic Bronze Towels",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "netPrice": 4457,
+    "weight": 189.02504052966833,
+    "discount": 0.41
+  },
+  {
+    "id": "4c96aae7efe7d55cdfdf852d",
+    "name": "Handcrafted Metal Chair",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "netPrice": 5308,
+    "weight": 617.7136887097731,
+    "discount": 0.51
+  },
+  {
+    "id": "7fc3acb585aec4db3ce2eadb",
+    "name": "Luxurious Fresh Fish",
+    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "netPrice": 966,
+    "weight": 481.9249404943548,
+    "discount": 0.5
+  },
+  {
+    "id": "bbd42ddcd33c84d1d9c860ca",
+    "name": "Modern Fresh Chips",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "netPrice": 1358,
+    "weight": 102.52760717412457,
+    "discount": 0.3
+  },
+  {
+    "id": "e6b93ca65ee7ea21dc8d7f1f",
+    "name": "Small Fresh Chair",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "netPrice": 8634,
+    "weight": 1019.4901887793094,
+    "discount": 0.81
+  },
+  {
+    "id": "34defcc95bae77c82dac2292",
+    "name": "Tasty Steel Soap",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "netPrice": 954,
+    "weight": 667.1415391145274,
+    "discount": 0.67
+  },
+  {
+    "id": "abfae4a5b7cb9f525e61b4e4",
+    "name": "Practical Frozen Table",
+    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    "netPrice": 5899,
+    "weight": 483.30381301930174,
+    "discount": 0.5
+  },
+  {
+    "id": "933ba99a68af0cccd60c2f14",
+    "name": "Bespoke Fresh Hat",
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "netPrice": 9379,
+    "weight": 118.05581831140444,
+    "discount": 0.12
+  },
+  {
+    "id": "eace6cfe1f8f8cfeeca22b07",
+    "name": "Incredible Cotton Tuna",
+    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "netPrice": 3911,
+    "weight": 241.09705068403855,
+    "discount": 0.45
+  },
+  {
+    "id": "7ca96dd02d7befce4af01570",
+    "name": "Rustic Concrete Tuna",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "netPrice": 2747,
+    "weight": 1152.5131303700618,
+    "discount": 0.07
+  }
+]
