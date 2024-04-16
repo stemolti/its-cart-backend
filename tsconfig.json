@@ -8,6 +8,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
-    "resolveJsonModule": true //Why should I add it?
+    "resolveJsonModule": true, //Why should I add it?
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true
   }
 }

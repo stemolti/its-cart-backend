@@ -3,6 +3,11 @@ import productService from "../product/product.service";
 import cartItemService from './cart-item.service';
 import { CartItem } from "./cart-item.entity";
 import { NotFoundError } from "../../errors/not-found";
+import { TypedRequest } from "../../utils/typed-requests";
+import { CreateCartItemDTO } from "./cart-item.dto";
+import { plainToClass } from "class-transformer";
+import { validate } from "class-validator";
+import { ValidationError } from "../../errors/validation";
 
 export const list = async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -12,9 +17,16 @@ export const list = async (req: Request, res: Response, next: NextFunction) => {
     next(err);
   }
 }
-
-export const add = async (req: Request, res: Response, next: NextFunction) => {
+// Perchè meglio unknown di any?
+/* Fare cosi è un po scomodo
+ * 
+ * req: Request<unknown, unknown, {productId: string, quantity: number}>
+ *
+ * usiamo piuttosto typed-requests.ts 
+ */
+export const add = async (req: TypedRequest<CreateCartItemDTO>, res: Response, next: NextFunction) => {
   try {
+
     const { productId, quantity } = req.body;
 
     //controllare che il prodotto esista

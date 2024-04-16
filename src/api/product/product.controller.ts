@@ -1,8 +1,10 @@
 import { NextFunction, Request, Response } from "express";
 import productSrv from './product.service';
 import { NotFoundError } from "../../errors/not-found";
+import { TypedRequest } from "../../utils/typed-requests";
+import { ProductQueryDTO } from "./product.dto";
 
-export const list = async (req: Request, res: Response, next: NextFunction) => {
+export const list = async (req: TypedRequest<unknown, ProductQueryDTO>, res: Response, next: NextFunction) => {
   try {
     // const { search }: { search?: string} = req.query;
     
