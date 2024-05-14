@@ -1,6 +1,6 @@
 import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
-import { UserIdentityModel } from "../user-identity.model"; 
+import { UserIdentityModel } from "./user-identity.model";
 import * as bcrypt from 'bcrypt';
 
 passport.use(

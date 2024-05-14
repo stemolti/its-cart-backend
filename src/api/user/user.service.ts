@@ -1,5 +1,5 @@
 import { UserExistsError } from "../../errors/user-exists";
-import { UserIdentityModel } from "../../utils/auth/user-identity.model";
+import { UserIdentityModel } from "../../utils/auth/local/user-identity.model";
 import { User } from "./user.entity";
 import { UserModel } from "./user.model";
 import * as bcrypt from 'bcrypt';
